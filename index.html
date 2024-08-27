@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Port Scanner Tool</title>
+</head>
+<body>
+    <h1>Port Scanner Tool</h1>
+    <label for="host">Host:</label>
+    <input type="text" id="host" value="127.0.0.1"><br><br>
+
+    <label for="startPort">Start Port:</label>
+    <input type="number" id="startPort" value="1"><br><br>
+
+    <label for="endPort">End Port:</label>
+    <input type="number" id="endPort" value="1024"><br><br>
+
+    <button id="scanButton">Scan Ports</button><br><br>
+
+    <div id="results"></div>
+
+    <script src="renderer.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+{
+    "name": "port-scanner-tool",
+    "version": "1.0.0",
+    "description": "A simple port scanner tool with Electron",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron ."
+    },
+    "author": "Your Name",
+    "license": "ISC",
+    "dependencies": {
+        "is-port-reachable": "^3.0.0"
+    },
+    "devDependencies": {
+        "electron": "^32.0.1"
+    }
+}
